@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persones>
+	<classe id="1rA">
+		<alumne>
+			<nom>Jordi Ribellas</nom>
+			<edat>12</edat>
+			<nota>8.5</nota>
+		</alumne>
+		<alumne>
+			<nom>Hector Vallve</nom>
+			<edat>13</edat>
+			<nota>9.2</nota>
+		</alumne>
+		<alumne>
+			<nom>Carles Puigdemont</nom>
+			<edat>15</edat>
+			<nota>7.8</nota>
+		</alumne>
+		<alumne>
+			<nom>Leo Messi</nom>
+			<edat>14</edat>
+			<nota>9.8</nota>
+		</alumne>
+		<alumne>
+			<nom>Leo Paredes</nom>
+			<edat>12</edat>
+			<nota>7.2</nota>
+		</alumne>
+	</classe>
+	<classe id="2nA">
+		<alumne>
+			<nom>Anna Garcia</nom>
+			<edat>13</edat>
+			<nota>8.0</nota>
+		</alumne>
+		<alumne>
+			<nom>Pau Rodriguez</nom>
+			<edat>14</edat>
+			<nota>7.5</nota>
+		</alumne>
+		<alumne>
+			<nom>Judit Torres</nom>
+			<edat>13</edat>
+			<nota>9.2</nota>
+		</alumne>
+		<alumne>
+			<nom>Pol Garcia</nom>
+			<edat>12</edat>
+			<nota>8.8</nota>
+		</alumne>
+		<alumne>
+			<nom>Jana Vidal</nom>
+			<edat>14</edat>
+			<nota>9.5</nota>
+		</alumne>
+	</classe>
+</persones>

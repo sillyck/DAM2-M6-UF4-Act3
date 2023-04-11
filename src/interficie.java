@@ -1,39 +1,20 @@
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.List;
 
-import javax.xml.xquery.XQException;
-import javax.xml.xquery.XQResultSequence;
-
 public interface interficie {
-
-	/**
-	 * Aquest metode llegeix un fitxer XQY
-	 * @param fitxer
-	 * @return
-	 * @throws XQException
-	 * @throws IOException
-	 */
-	public abstract XQResultSequence llegirXqy(String fitxer) throws XQException, IOException;
 	
 	/**
-	 * Aquest metode genera un Html
-	 * @param result
+	 * Aquest metode ens permet poder sumar un array de numeros
+	 * @param arreglo
 	 * @return
-	 * @throws XQException
-	 * @throws FileNotFoundException
 	 */
-	public abstract PrintWriter generarHtml(XQResultSequence result) throws XQException, FileNotFoundException;
+	public abstract void sumarArray(int[] arreglo);
 	
 	/**
-	 * Aquest metode llegeix un fitxer XML
-	 * @param fitxer
-	 * @param element
-	 * @param node
-	 * @throws FileNotFoundException
+	 * Aquest metode ens permet fer l'arrel quadrada d'un numero 
+	 * @param n
+	 * @return
 	 */
-	public abstract void llegirXml(String fitxer, String element, String node) throws FileNotFoundException;
+	public void raizCuadrada(double n);
 	
 	/**
 	 * Aquest metode ens ordenara una llista de Strings que tinguem
@@ -46,7 +27,7 @@ public interface interficie {
 	 * Aquest metode podem veure la data i la hora actual
 	 * @return
 	 */
-	public String obtenirDataHora();
+	public void obtenirDataHora();
 	
 	/**
 	 * Aquest metode ens dira, de dos valora, quin es el numero mes gran
@@ -55,6 +36,14 @@ public interface interficie {
 	 * @return
 	 */
 	public abstract int maxim(int primer, int segon);
+	
+	/**
+	 * Aquest metode ens dira, de dos valora, quin es el numero mes petit
+	 * @param a
+	 * @param b
+	 * @return
+	 */
+	public abstract int minim(int primer, int segon);
 	
 	/**
 	 * Aquest metode ens generarà un numero aleatori entre els dos valors que li passem per parametre
@@ -69,14 +58,14 @@ public interface interficie {
 	 * @param decimal
 	 * @return
 	 */
-	public abstract String decimalAFraccion(double decimal);
+	public abstract void decimalAFraccion(double decimal);
 	
 	/**
 	 * Aquest metode ens demana una cadena i ens la retorna al revés
 	 * @param cadena
 	 * @return
 	 */
-	public abstract String invertirText(String cadena);
+	public abstract void invertirText(String cadena);
 	
 	/**
 	 * Aquest metode ens permet eliminar els elements duplicats d'una llista
